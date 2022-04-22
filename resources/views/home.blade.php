@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@SheikhAmin 
+SheikhAmin
+/
+Restaurant-Management
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Restaurant-Management/resources/views/home.blade.php
+
+SheikhAmin Cse470 Project
+Latest commit 85ada7f 5 days ago
+ History
+ 0 contributors
+587 lines (513 sloc)  30 KB
+   
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,9 +43,7 @@
 <!--
     
 TemplateMo 558 Klassy Cafe
-
 https://templatemo.com/tm-558-klassy-cafe
-
 -->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -567,7 +594,6 @@ https://templatemo.com/tm-558-klassy-cafe
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
     <script>
-
         $(function() {
             var selectedClass = "";
             $("p").click(function(){
@@ -581,7 +607,19 @@ https://templatemo.com/tm-558-klassy-cafe
                 
             });
         });
-
     </script>
   </body>
 </html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
