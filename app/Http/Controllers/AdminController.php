@@ -12,7 +12,7 @@ use App\Models\Reservation;
 
 use App\Models\Foodchef;
 
-use App\Models\Order;
+#use App\Models\Order;
 
 use Illuminate\Support\Facades\Auth;
 
@@ -112,7 +112,7 @@ class AdminController extends Controller
 
 
 
-       public function upload(Request $request)
+    public function upload(Request $request)
     {
         $data = new food;
 
@@ -234,12 +234,7 @@ class AdminController extends Controller
     }
 
 
-    public function orders()
-    {
-        $data=order::all();
-        return view('admin.orders',compact('data'));
-    }
-
+   
     public function search(Request $request)
 
     {
