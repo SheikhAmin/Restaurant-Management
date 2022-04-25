@@ -12,16 +12,9 @@ class UserTest extends TestCase
      *
      * @return void
      */
-    /**  public function test_example()
-    *{
-    *    $this->assertTrue(true);
-   * }*/
-    public function test_foodmenu()
-    {
-        $this->admincontroller = new \App\Controllers\AdminController;
-        $this->admincontroller->deleteuser(4);
-        $this->assertTrue(4);
-
-
+    public function test_example()
+{
+        $this->assertTrue(true);
     }
+
 }
